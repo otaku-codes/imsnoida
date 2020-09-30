@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50dp"
+        android:background="#E8E6E6E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="casual"
+                        android:text="About Us"
+                        android:textColor="#000000"
+                        android:textSize="36sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="40dp"
+                        android:orientation="horizontal">
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:fontFamily="monospace"
+                                android:lineSpacingExtra="3sp"
+                                android:text="IMS Noida's App is the conservative step taken by students of SOIT-IMS Noida to support the student pursuing graduation. We are highly obliged if we are able to help single student in fruitfull manner. A special thanks to all teachers and students who have helped us in making this app resounding success."
+                                android:textAlignment="center"
+                                android:textColor="#0357FF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+
+
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:orientation="horizontal">
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+
+                            <TextView
+                                android:layout_width="390dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+
+                                android:layout_marginEnd="0dp"
+                                android:fontFamily="monospace"
+                                android:layout_centerVertical="true"
+                                android:layout_centerHorizontal="true"
+                                android:lineSpacingExtra="3sp"
+                                android:text="For Any Queries Mail Us:"
+                                android:textAlignment="center"
+                                android:textColor="#FF0303"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal">
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="monospace"
+                                android:lineSpacingExtra="3sp"
+                                android:text="asktrickswizard@gmail.com\n"
+                                android:textAlignment="center"
+                                android:textColor="#03A9F4"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+
+
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                     android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <Button
+                                android:id="@+id/ourTeam"
+                                style="@style/Widget.AppCompat.Button"
+                                android:layout_width="177dp"
+                                android:layout_height="40dp"
+                                android:layout_centerHorizontal="true"
+                                android:background="@color/colorPrimary"
+                                android:backgroundTint="#F84646"
+                                android:backgroundTintMode="multiply"
+                                android:capitalize="none"
+                                android:keepScreenOn="false"
+                                android:shadowColor="#FF0202"
+                                android:shadowDx="2"
+                                android:shadowDy="2"
+                                android:padding="3dp"
+                                android:shadowRadius="3"
+                                android:text="Meet Our Team"
+                                android:textAlignment="center"
+                                android:textAllCaps="false"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:typeface="normal" />
+
+                            <TextView
+                                android:id="@+id/singh"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="monospace"
+                                android:lineSpacingExtra="3sp"
+                                android:textAlignment="center"
+                                android:textColor="#0357FF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+
+                        android:orientation="horizontal">
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:text="Spread Love..."
+                                android:textAlignment="center"
+                                android:textColor="#E91E63"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+
+
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

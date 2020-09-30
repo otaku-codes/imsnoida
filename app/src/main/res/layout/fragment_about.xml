@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50dp"
+        android:background="#E8E6E6E6"
+        android:scrollbarSize="2dp"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbVertical="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="casual"
+                        android:text="Meet Our Team"
+                        android:textColor="#000000"
+                        android:textSize="36sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:id="@+id/manju"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/denaf"
+                                app:civ_border_color="#004012"
+                                app:civ_border_width="4dp"
+                                app:civ_shadow="true"
+                                app:civ_shadow_color="#04BD39"
+                                app:civ_shadow_radius="10dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:id="@+id/manjuf"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/manju"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="monospace"
+                                android:textAlignment="center"
+                                android:text="Dr. Manju Gupta"
+                                android:textColor="#004012"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/test"
+                                android:layout_centerHorizontal="true"
+                                android:fontFamily="monospace"
+                                android:text="(Dean Academics,IMS Noida)"
+                                android:textColor="#3F51B5"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/test"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/manjuf"
+                                android:layout_centerHorizontal="true"
+                                android:fontFamily="monospace"
+                                android:text="(Source Of Motivation)"
+                                android:textColor="#3F51B5"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+
+
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:id="@+id/pritiji"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/hod"
+                                app:civ_border_color="#540277"
+                                app:civ_border_width="4dp"
+                                app:civ_shadow="true"
+                                app:civ_shadow_color="#7604A6"
+                                app:civ_shadow_radius="10dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:id="@+id/p"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/pritiji"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="monospace"
+                                android:textAlignment="center"
+                                android:text="Ms. Priti Rani Rajvanshi"
+                                android:textColor="#B301FF"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/p"
+                                android:layout_centerHorizontal="true"
+                                android:fontFamily="monospace"
+                                android:text="(Project Coordinator,IMS Noida)"
+                                android:textColor="#3F51B5"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+
+
+                                <com.mikhaellopez.circularimageview.CircularImageView
+                                    android:id="@+id/himanshu"
+                                    android:layout_width="200dp"
+                                    android:layout_height="200dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:src="@drawable/hpo"
+                                    app:civ_border_color="#0128FF"
+                                    app:civ_border_width="4dp"
+                                    app:civ_shadow="true"
+                                    app:civ_shadow_color="#2A40B6"
+                                    app:civ_shadow_radius="10dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:id="@+id/singh"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/himanshu"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:fontFamily="monospace"
+                                    android:text="Himanshu Papola"
+                                    android:textColor="#0128FF"
+                                    android:textSize="24sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/linkedin"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/singh"
+                                    android:layout_centerHorizontal="true"
+                                    android:fontFamily="monospace"
+                                    android:text="(Developer &amp; Designer,IMS Noida)"
+                                    android:textColor="#3F51B5"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+
+                            </RelativeLayout>
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="200dp"
+                                android:id="@+id/mayank"
+                                android:layout_height="200dp"
+                                android:src="@drawable/mayank"
+                                app:civ_border_color="#673AB7"
+                                app:civ_border_width="4dp"
+                                app:civ_shadow="true"
+                                android:layout_centerHorizontal="true"
+                                app:civ_shadow_radius="10dp"
+                                app:civ_shadow_color="#5520B3"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:id="@+id/gupta"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mayank"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="monospace"
+                                android:text="Mayank Gupta"
+                                android:textColor="#673AB7"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/gupta"
+                                android:layout_centerHorizontal="true"
+                                android:fontFamily="monospace"
+                                android:textAlignment="center"
+                                android:text="(Designer &amp; Data Profiling,IMS Noida)"
+                                android:textColor="#3F51B5"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
